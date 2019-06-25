@@ -5,6 +5,7 @@ spring:
     name: config-service
   cloud:
     config:
+      label: mod
       server:
         git:
-          uri: https://github.com/betht1220/spring-cloud-event-sourcing-config/tree/mod
+          uri: https://github.com/betht1220/spring-cloud-event-sourcing-config.git
