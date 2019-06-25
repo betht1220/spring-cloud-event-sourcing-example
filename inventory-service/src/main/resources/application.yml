@@ -4,7 +4,7 @@ spring:
   profiles: development
   neo4j:
     username: neo4j
-    password: "neo4j"
+    password: "!neo4j"
     host: ${SPRING_NEO4J_HOST:localhost}
     port: ${SPRING_NEO4J_PORT:7474}
 eureka:
