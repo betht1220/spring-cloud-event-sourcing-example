@@ -14,11 +14,11 @@ security:
 ---
 spring:
   profiles: development
-  datasource:
-    url: jdbc:mysql://127.0.0.1:3306/dev
-    username: root
-    password: dbpass
-    platform: mysql
+#  datasource:
+#    url: jdbc:mysql://127.0.0.1:3306/dev
+#    username: root
+#    password: dbpass
+#    platform: mysql
 #security:
 #  oauth2:
 #    resource:
